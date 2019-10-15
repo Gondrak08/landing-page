@@ -57,6 +57,7 @@ body {
   justify-content: space-around;
   align-items: center;
   background-color: #eee;
+  margin: auto;
  
 }
 
@@ -81,7 +82,7 @@ body {
 nav{
   font-weight: 400;
   
-  @media (max-width: 650px) {
+  
     margin-top: 10px;
     width: 100%;
     display: flex;
@@ -89,7 +90,7 @@ nav{
     align-items: center;
     text-align: center;
     padding: 0 50px;
-  }
+ 
 }
     nav   li {
          padding-bottom: 5px; 
